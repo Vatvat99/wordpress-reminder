@@ -27,9 +27,40 @@ add_action( 'wp_head', 'favicon_link' );
 /* ------------------------------------------------------------------- */
 
 /**
- * Routing des url d'inscription / connexion
+ * Routing des url d'inscriptions / connexion / profil / déconnexion
  */
 function site_router() {
-    // print_r($_SERVER); die();
+
+    $root = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
+    $url = str_replace($root, '', $_SERVER['REQUEST_URI']);
+    $url_parts = explode('/', $url);
+
+    if (count($url_parts) == 1 && $url_parts[0] == 'login') {
+        require 'page-login.php'; die();
+    }
+    elseif (count($url_parts) == 1 && $url_parts[0] == 'profil') {
+        require 'page-profil.php'; die();
+    }
+    elseif (count($url_parts) == 1 && $url_parts[0] == 'register') {
+        require 'page-register.php'; die();
+    }
+    elseif (count($url_parts) == 1 && $url_parts[0] == 'logout') {
+        //die($root);
+        wp_logout();
+        header('location:' . $root); die();
+    }
+
 }
+// see https://codex.wordpress.org/Plugin_API/Action_Reference/send_headers
 add_action('send_headers', 'site_router');
+
+// Cache la toolbar wordpress pour tous les utilisateurs
+add_filter('show_admin_bar', '__return_false');
+
+// Cache la toolbar wordpress pour tous les utilisateurs, sauf les administrateurs
+function remove_admin_bar() {
+    if (!current_user_can('administrator') && !is_admin()) {
+        add_filter('show_admin_bar', '__return_false');
+    }
+}
+add_action('after_setup_theme', 'remove_admin_bar');
