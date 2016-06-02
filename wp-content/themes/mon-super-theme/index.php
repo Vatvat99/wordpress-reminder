@@ -12,7 +12,7 @@ get_header(); // Inclus header.php ?>
         <?php if ( have_posts() ) { ?>
             <?php
             // Affiche les liens de navigations
-            mon_super_theme_nav( 'nav-above' );
+            mon_super_theme_content_nav( 'nav-above' );
             ?>
             <?php while ( have_posts() ) { ?>
                 <?php the_post(); // récupère l'article courant ?>
@@ -21,13 +21,15 @@ get_header(); // Inclus header.php ?>
                 // Check en premier lieu en fonction du type de post, si un template
                 // comme template-parts/content-aside.php est présent, sinon, utilise
                 // template-parts/content.php
-                get_template_part('template-parts/content', get_post_format() );
+                get_template_part( 'template-parts/content', get_post_format() );
                 ?>
             <?php } ?>
             <?php
             // Affiche les liens de navigations
-            mon_super_theme_nav( 'nav-below' );
+            mon_super_theme_content_nav( 'nav-below' );
             ?>
+        <?php } else { ?>
+            <?php get_template_part( 'template-parts/no-results', 'index' ); ?>
         <?php } ?>
     </div><!-- #content .site-content -->
 </div>

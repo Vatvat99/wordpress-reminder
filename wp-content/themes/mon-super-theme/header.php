@@ -32,7 +32,7 @@
 
             // Ajoute le numéro de la page si nécessaire
             if ( $paged >= 2 || $page >= 2 )
-                echo ' | ' . sprintf( __( 'Page %s', 'mon_super_theme' ), max( $paged, $page ) );
+                echo ' | ' . sprintf( __( 'Page %s', 'mon-super-theme' ), max( $paged, $page ) );
             ?>
         </title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -53,8 +53,17 @@
                           <?php bloginfo( 'description' ); ?>
                       </h2>
                   </hgroup>
+
+                  <?php
+                  $header_image = get_header_image();
+                  if ( ! empty( $header_image ) ) { ?>
+                      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                        <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+                    </a>
+                  <?php } ?>
+
                   <nav role="navigation" class="site-navigation main-navigation">
-                      <h1 class="assistive-text"><?php _e( 'Menu', 'mon_super_theme' ); ?></h1>
+                      <h1 class="assistive-text"><?php _e( 'Menu', 'mon-super-theme' ); ?></h1>
                       <div class="assistive-text skip-link">
                           <a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>">
                               <?php _e( 'Skip to content', 'mon-super-theme' ); ?>

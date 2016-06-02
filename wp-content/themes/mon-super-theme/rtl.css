@@ -1,0 +1,159 @@
+/*
+Theme Name: Mon super thème
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+
+/* =Structure
+----------------------------------------------- */
+
+#primary {
+	float: right;
+	margin: 0 0 0 -27%;
+}
+#content {
+	margin: 0 0 0 27%;
+}
+#secondary,
+tertiary {
+	float: left;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+.main-navigation li {
+	float: right;
+}
+.main-navigation a {
+	margin-left: 2em;
+	margin-right: auto;
+}
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+.entry-content table,
+.comment-content table {
+	border-right-width: 0;
+	margin: 0 0 2.083em -0.083em;
+	text-align: right;
+}
+.entry-content tr th,
+.entry-content thead th,
+.comment-content tr th,
+.comment-content thead th {
+	border-right: 1px solid #d9d9d9;
+	border-left: none;
+}
+
+/* =Aside Post Format
+----------------------------------------------- */
+
+.format-aside .entry-content {
+	border-right: 4px solid rgba( 0, 0, 0, 0.1 );
+	padding-right: 1em;
+	padding-left: 0;
+	border-left: none;
+}
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content .nav-previous {
+	float: right;
+}
+.site-content .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+.children {
+	margin: 0 6% 0 0;
+}
+.commentlist li.comment,
+.commentlist li.pingback {
+	padding-right: 2.5em;
+	padding-left: 0;
+}
+.comment .avatar {
+	float: right;
+	margin-left: 1.25em;
+	margin-right: auto;
+}
+.comment-content {
+	margin: 1em 4.5em 0 0;
+}
+.comment .reply {
+	text-align: left;
+}
+
+/* Comment Form */
+#commentform input[type="text"] {
+	margin-right: 0.5em;
+	margin-left: auto;
+}

@@ -1,0 +1,170 @@
+[23-May-2016 13:59:40 UTC] PHP Parse error:  syntax error, unexpected 'excerpt' (T_STRING) in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\template-parts\content.php on line 26
+[23-May-2016 13:59:41 UTC] PHP Parse error:  syntax error, unexpected 'excerpt' (T_STRING) in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\template-parts\content.php on line 26
+[23-May-2016 14:51:33 UTC] PHP Fatal error:  Call to undefined function mon_super_theme_content_nav() in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\single.php on line 13
+[01-Jun-2016 14:58:23 UTC] PHP Fatal error:  Call to undefined function mon_super_theme_content_nav() in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\single.php on line 13
+[01-Jun-2016 14:58:23 UTC] PHP Stack trace:
+[01-Jun-2016 14:58:23 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 14:58:23 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 14:58:23 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 14:58:23 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 14:59:48 UTC] PHP Notice:  Use of undefined constant previous - assumed 'previous' in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\template-tags.php on line 80
+[01-Jun-2016 14:59:48 UTC] PHP Stack trace:
+[01-Jun-2016 14:59:48 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 14:59:48 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 14:59:48 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 14:59:48 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 14:59:48 UTC] PHP   5. mon_super_theme_content_nav() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\single.php:13
+[01-Jun-2016 14:59:48 UTC] PHP Notice:  Use of undefined constant previous - assumed 'previous' in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\template-tags.php on line 80
+[01-Jun-2016 14:59:48 UTC] PHP Stack trace:
+[01-Jun-2016 14:59:48 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 14:59:48 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 14:59:48 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 14:59:48 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 14:59:48 UTC] PHP   5. mon_super_theme_content_nav() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\single.php:21
+[01-Jun-2016 15:00:21 UTC] PHP Fatal error:  Call to undefined function mon_super_theme_nav() in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\index.php on line 15
+[01-Jun-2016 15:00:21 UTC] PHP Stack trace:
+[01-Jun-2016 15:00:21 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 15:00:21 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 15:00:21 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 15:00:21 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 15:00:23 UTC] PHP Fatal error:  Call to undefined function mon_super_theme_nav() in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\index.php on line 15
+[01-Jun-2016 15:00:23 UTC] PHP Stack trace:
+[01-Jun-2016 15:00:23 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 15:00:23 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 15:00:23 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 15:00:23 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 15:00:48 UTC] PHP Fatal error:  Call to undefined function mon_super_theme_nav() in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\index.php on line 29
+[01-Jun-2016 15:00:48 UTC] PHP Stack trace:
+[01-Jun-2016 15:00:48 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[01-Jun-2016 15:00:48 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[01-Jun-2016 15:00:48 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[01-Jun-2016 15:00:48 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[01-Jun-2016 15:52:25 UTC] PHP Notice:  Undefined offset: 0 in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\capabilities.php on line 117
+[01-Jun-2016 15:52:25 UTC] PHP Stack trace:
+[01-Jun-2016 15:52:25 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[01-Jun-2016 15:52:25 UTC] PHP   2. wp_dashboard() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:126
+[01-Jun-2016 15:52:25 UTC] PHP   3. do_meta_boxes() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\includes\dashboard.php:213
+[01-Jun-2016 15:52:25 UTC] PHP   4. call_user_func() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\includes\template.php:1037
+[01-Jun-2016 15:52:25 UTC] PHP   5. wp_dashboard_quick_press() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\includes\template.php:1037
+[01-Jun-2016 15:52:25 UTC] PHP   6. get_default_post_to_edit() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\includes\dashboard.php:470
+[01-Jun-2016 15:52:25 UTC] PHP   7. wp_insert_post() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\includes\post.php:598
+[01-Jun-2016 15:52:25 UTC] PHP   8. do_action() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\post.php:3529
+[01-Jun-2016 15:52:25 UTC] PHP   9. call_user_func_array() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[01-Jun-2016 15:52:25 UTC] PHP  10. Slider_Post_Type->save_post() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[01-Jun-2016 15:52:25 UTC] PHP  11. current_user_can() C:\Users\avattant\Documents\DEV\wordpress\wp-content\plugins\mon-super-slider\post-types\slider-post-type.php:104
+[01-Jun-2016 15:52:25 UTC] PHP  12. call_user_func_array() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\capabilities.php:436
+[01-Jun-2016 15:52:25 UTC] PHP  13. WP_User->has_cap() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\capabilities.php:436
+[01-Jun-2016 15:52:25 UTC] PHP  14. call_user_func_array() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\class-wp-user.php:721
+[01-Jun-2016 15:52:25 UTC] PHP  15. map_meta_cap() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\class-wp-user.php:721
+[02-Jun-2016 07:19:54 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] Aucune connexion nía pu Ítre Ètablie car líordinateur cible lía expressÈment refusÈe.
+ (trying to connect via tcp://127.0.0.1:3306) in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php on line 1520
+[02-Jun-2016 07:19:54 UTC] PHP Stack trace:
+[02-Jun-2016 07:19:54 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[02-Jun-2016 07:19:54 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[02-Jun-2016 07:19:54 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:13
+[02-Jun-2016 07:19:54 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 07:19:54 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 07:19:54 UTC] PHP   6. require_wp_db() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:88
+[02-Jun-2016 07:19:54 UTC] PHP   7. wpdb->__construct() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\load.php:371
+[02-Jun-2016 07:19:54 UTC] PHP   8. wpdb->db_connect() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php:658
+[02-Jun-2016 07:19:54 UTC] PHP   9. mysql_connect() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php:1520
+[02-Jun-2016 07:19:54 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Aucune connexion nía pu Ítre Ètablie car líordinateur cible lía expressÈment refusÈe.
+ in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php on line 1520
+[02-Jun-2016 07:19:54 UTC] PHP Stack trace:
+[02-Jun-2016 07:19:54 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[02-Jun-2016 07:19:54 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[02-Jun-2016 07:19:54 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:13
+[02-Jun-2016 07:19:54 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 07:19:54 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 07:19:54 UTC] PHP   6. require_wp_db() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:88
+[02-Jun-2016 07:19:54 UTC] PHP   7. wpdb->__construct() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\load.php:371
+[02-Jun-2016 07:19:54 UTC] PHP   8. wpdb->db_connect() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php:658
+[02-Jun-2016 07:19:54 UTC] PHP   9. mysql_connect() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\wp-db.php:1520
+[02-Jun-2016 08:40:42 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\cache.php on line 552
+[02-Jun-2016 08:40:42 UTC] PHP Stack trace:
+[02-Jun-2016 08:40:42 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[02-Jun-2016 08:40:42 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[02-Jun-2016 08:40:42 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[02-Jun-2016 08:40:42 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[02-Jun-2016 08:40:42 UTC] PHP   5. get_template_part() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\archive.php:63
+[02-Jun-2016 08:40:42 UTC] PHP   6. locate_template() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\general-template.php:167
+[02-Jun-2016 08:40:42 UTC] PHP   7. load_template() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template.php:531
+[02-Jun-2016 08:40:42 UTC] PHP   8. require() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template.php:574
+[02-Jun-2016 08:40:42 UTC] PHP   9. post_class() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\template-parts\content.php:10
+[02-Jun-2016 08:40:42 UTC] PHP  10. get_post_class() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\post-template.php:414
+[02-Jun-2016 08:40:42 UTC] PHP  11. get_the_terms() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\post-template.php:501
+[02-Jun-2016 08:40:42 UTC] PHP  12. get_post() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\category-template.php:1167
+[02-Jun-2016 08:40:42 UTC] PHP  13. WP_Post::get_instance() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\post.php:446
+[02-Jun-2016 08:40:42 UTC] PHP  14. wp_cache_get() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\class-wp-post.php:217
+[02-Jun-2016 08:40:42 UTC] PHP  15. WP_Object_Cache->get() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\cache.php:123
+[02-Jun-2016 08:41:14 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template.php on line 518
+[02-Jun-2016 08:41:14 UTC] PHP Stack trace:
+[02-Jun-2016 08:41:14 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\index.php:0
+[02-Jun-2016 08:41:14 UTC] PHP   2. require() C:\Users\avattant\Documents\DEV\wordpress\index.php:17
+[02-Jun-2016 08:41:14 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-blog-header.php:19
+[02-Jun-2016 08:41:14 UTC] PHP   4. include() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\template-loader.php:75
+[02-Jun-2016 08:41:14 UTC] PHP   5. get_template_part() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\archive.php:63
+[02-Jun-2016 08:41:14 UTC] PHP   6. locate_template() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\general-template.php:167
+[02-Jun-2016 12:41:36 UTC] PHP Warning:  require(C:\Users\avattant\Documents\DEV\wordpress/wp-content/themes/mon-super-themeinc/custom-header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\functions.php on line 156
+[02-Jun-2016 12:41:36 UTC] PHP Stack trace:
+[02-Jun-2016 12:41:36 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:41:36 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:41:36 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:41:36 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:41:36 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:41:36 UTC] PHP   6. include() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:369
+[02-Jun-2016 12:41:36 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'C:\Users\avattant\Documents\DEV\wordpress/wp-content/themes/mon-super-themeinc/custom-header.php' (include_path='.;C:\php\pear') in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\functions.php on line 156
+[02-Jun-2016 12:41:36 UTC] PHP Stack trace:
+[02-Jun-2016 12:41:36 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:41:36 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:41:36 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:41:36 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:41:36 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:41:36 UTC] PHP   6. include() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:369
+[02-Jun-2016 12:42:02 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\custom-header.php on line 40
+[02-Jun-2016 12:42:02 UTC] PHP Stack trace:
+[02-Jun-2016 12:42:02 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:42:02 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:42:02 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:42:02 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:42:02 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:42:02 UTC] PHP   6. include() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:369
+[02-Jun-2016 12:42:53 UTC] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ')' in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\custom-header.php on line 78
+[02-Jun-2016 12:42:53 UTC] PHP Stack trace:
+[02-Jun-2016 12:42:53 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:42:53 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:42:53 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:42:53 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:42:53 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:42:53 UTC] PHP   6. include() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:369
+[02-Jun-2016 12:42:55 UTC] PHP Parse error:  syntax error, unexpected T_IS_NOT_EQUAL, expecting ')' in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\custom-header.php on line 78
+[02-Jun-2016 12:42:55 UTC] PHP Stack trace:
+[02-Jun-2016 12:42:55 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:42:55 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:42:55 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:42:55 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:42:55 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:42:55 UTC] PHP   6. include() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:369
+[02-Jun-2016 12:43:12 UTC] PHP Notice:  Undefined variable: wp_version in C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\custom-header.php on line 29
+[02-Jun-2016 12:43:12 UTC] PHP Stack trace:
+[02-Jun-2016 12:43:12 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:43:12 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:43:12 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:43:12 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:43:12 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:43:12 UTC] PHP   6. do_action() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:377
+[02-Jun-2016 12:43:12 UTC] PHP   7. call_user_func_array() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[02-Jun-2016 12:43:12 UTC] PHP   8. mon_super_theme_custom_header_setup() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[02-Jun-2016 12:43:12 UTC] PHP Notice:  add_custom_image_header est <strong>d√©pr√©ci√©</strong> depuis la version 3.4! Utilisez add_theme_support( 'custom-header', $args ) √† la place. in C:\Users\avattant\Documents\DEV\wordpress\wp-includes\functions.php on line 3658
+[02-Jun-2016 12:43:12 UTC] PHP Stack trace:
+[02-Jun-2016 12:43:12 UTC] PHP   1. {main}() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:0
+[02-Jun-2016 12:43:12 UTC] PHP   2. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\index.php:10
+[02-Jun-2016 12:43:12 UTC] PHP   3. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-admin\admin.php:31
+[02-Jun-2016 12:43:12 UTC] PHP   4. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-load.php:37
+[02-Jun-2016 12:43:12 UTC] PHP   5. require_once() C:\Users\avattant\Documents\DEV\wordpress\wp-config.php:103
+[02-Jun-2016 12:43:12 UTC] PHP   6. do_action() C:\Users\avattant\Documents\DEV\wordpress\wp-settings.php:377
+[02-Jun-2016 12:43:12 UTC] PHP   7. call_user_func_array() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[02-Jun-2016 12:43:12 UTC] PHP   8. mon_super_theme_custom_header_setup() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\plugin.php:525
+[02-Jun-2016 12:43:12 UTC] PHP   9. add_custom_image_header() C:\Users\avattant\Documents\DEV\wordpress\wp-content\themes\mon-super-theme\inc\custom-header.php:40
+[02-Jun-2016 12:43:12 UTC] PHP  10. _deprecated_function() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\deprecated.php:2976
+[02-Jun-2016 12:43:12 UTC] PHP  11. trigger_error() C:\Users\avattant\Documents\DEV\wordpress\wp-includes\functions.php:3658

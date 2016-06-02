@@ -20,7 +20,7 @@ if ( ! function_exists( 'mon_super_theme_setup' )) {
     /**
      * Initialisation du thème
      *
-     * Cette fonction est appellée dans le hook after_setup_theme, qui séxécute
+     * Cette fonction est appellée dans le hook after_setup_theme, qui s'exécute
      * avant le hook init.
      */
     function mon_super_theme_setup() {
@@ -38,7 +38,7 @@ if ( ! function_exists( 'mon_super_theme_setup' )) {
          * Rend le thème disponibles pour les traductions
          * Les traductions peuvent être remplies dans le répertoire /languages
          */
-        load_theme_textdomain( 'mon_super_theme', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'mon-super-theme', get_template_directory() . '/languages' );
 
         /**
          * Ajoute des liens par défauts vers les RSS d'articles et de commentaires dans le head
@@ -57,13 +57,69 @@ if ( ! function_exists( 'mon_super_theme_setup' )) {
          * See: http://codex.wordpress.org/Navigation_Menus
          */
         register_nav_menus( array(
-            'primary' => __( 'Primary Menu', 'mon_super_theme' ),
+            'primary' => __( 'Primary Menu', 'mon-super-theme' ),
         ) );
 
     }
     add_action( 'after_setup_theme', 'mon_super_theme_setup' );
 
 }
+
+/**
+ * Active la fonctionnalité Wordpress "Custom Background"
+ * see http://codex.wordpress.org/Custom_Backgrounds
+ *
+ * Utilise add_theme_support pour activer la fonctionnalité, fournit une
+ * compatibilité avec les versions de wordpress antérieur à 3.4
+ */
+function mon_super_theme_custom_background() {
+    $args = array(
+        'default-color' => 'e9e0d1',
+    );
+    $args = apply_filters( 'mon_super_theme_background_args', $args );
+
+    global $wp_version;
+    // Si la version de Wordpress est supérieure à 3.4
+    if ( version_compare( $wp_version, '3.4', '>=' ) ) {
+        // on active les "custom background" en passant les paramètres par défaut
+    	add_theme_support( 'custom-background', $args );
+    }
+    // La version de wordpress est inférieure à 3.4
+    else {
+        // on utilise l'ancienne méthode pour activer les "custom background"
+        define( 'BACKGROUND_COLOR', $args['default-color'] );
+        define( 'BACKGROUND_IMAGE', $args['default-image'] );
+    	add_custom_background();
+    }
+}
+add_action( 'after_setup_theme', 'mon_super_theme_custom_background' );
+
+/**
+ * Définit les zones pouvant accueillir des widgets et met à jour la sidebar
+ * avec les widgets par défaut
+ */
+function mon_super_theme_widgets_init() {
+
+    register_sidebar( array(
+        'name' => __( 'Primary Widget Area', 'mon-super-theme' ),
+        'id' => 'sidebar-1',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h1 class="widget-title">',
+        'after_title' => '</h1>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Secondary Widget Area', 'mon-super-theme' ),
+        'id' => 'sidebar-2',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h1 class="widget-title">',
+        'after_title' => '</h1>',
+    ) );
+
+}
+add_action( 'widgets_init', 'mon_super_theme_widgets_init' );
 
 /**
  * Ajoute des scripts et styles
@@ -84,3 +140,17 @@ function mon_super_theme_scripts() {
         wp_enqueue_script( 'keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array('jquery'), '20160518' );
 }
 add_action( 'wp_enqueue_scripts', 'mon_super_theme_scripts' );
+
+/**
+ * Affiche les crédits du site
+ */
+function mon_super_theme_credits() {
+    echo '<p>Tous droits réservés &copy; 2016</p>';
+}
+add_action( 'mon_super_theme_credits', 'mon_super_theme_credits' );
+
+/**
+ * Active la fonctionnalité Wordpress "Custom Header"
+ * see https://codex.wordpress.org/Custom_Headers
+ */
+require( get_template_directory() . '/inc/custom-header.php' );
